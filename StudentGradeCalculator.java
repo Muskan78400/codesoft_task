@@ -24,17 +24,6 @@ while(choice=='y' || choice=='Y') {
 
 		// Determine the grade
 		String grade;
-//		if (averagePercentage >= 90) {
-//			grade = "A";
-//		} else if (averagePercentage >= 80) {
-//			grade = "B";
-//		} else if (averagePercentage >= 70) {
-//			grade = "C";
-//		} else if (averagePercentage >= 60) {
-//			grade = "D";
-//		} else {
-//			grade = "F";
-//		}
 		
 		grade = averagePercentage >= 90 ? "A"
 				: averagePercentage >= 80 ? "B" : averagePercentage >= 70 ? "C" : averagePercentage >= 60 ? "D" : "F";
