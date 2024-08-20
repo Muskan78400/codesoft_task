@@ -1,8 +1,9 @@
+package com.company6;
 import java.util.Random;
 import java.util.Scanner;
 
 public class NumberGuessingGame {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         Random rand = new Random(); // Random number generator
         int n = rand.nextInt(100) + 1; // Generate a random number between 1 and 100
         Scanner scanner = new Scanner(System.in);
@@ -36,7 +37,6 @@ public class NumberGuessingGame {
             
             guess = scanner.nextInt(); // Get the next guess from the user
         }
-        
         // Output messages after the user guesses the correct number
         System.out.println("You guessed it!");
         System.out.println("The number was: " + n);
@@ -45,3 +45,5 @@ public class NumberGuessingGame {
         scanner.close(); // Close the scanner
     }
 }
+
+
